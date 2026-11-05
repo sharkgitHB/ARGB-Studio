@@ -1,0 +1,20 @@
+# local state / machine-specific
+last_state.json
+settings.json
+restart_app.ps1
+runtime/create_shortcut.ps1
+runtime/app.ico
+runtime/openrgb-config/
+app/assets/gen/
+tests/ui_preview*.png
+
+# dev
+.venv/
+__pycache__/
+*.pyc
+dist/
+runtime/python-dl/
+
+# heavy bundled binaries — shipped via GitHub Releases instead
+runtime/openrgb/
+runtime/python/
